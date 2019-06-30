@@ -23,6 +23,9 @@ int sum(int x, int y)
     return x + y;
 }
 
+/**
+ * 变量
+*/
 int main(int argc, char const *argv[])
 {
     int result = addTwonum();
