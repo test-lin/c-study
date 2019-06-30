@@ -12,7 +12,7 @@
 
 ## 学习规范
 
-* gcc 编译文件全部放在 out 文件夹中（gcc hello.c -o out\hello）
+* gcc 编译文件全部放在 out 文件夹中（gcc.bat hello.c out\hello）
 * 文件全部使用 utf-8 编码
 
 ## 踩坑集
