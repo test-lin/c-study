@@ -11,11 +11,11 @@ void 类型
 */
 int main(int argc, char const *argv[])
 {
-    printf("int 存储大小: %lu \n", sizeof(int));
-    printf("char 值范围: %E < value < %E \n", CHAR_MIN, CHAR_MAX);
+    printf("int 存储大小: %d \n", sizeof(int));
+    printf("char 值范围: %d < value < %d \n", CHAR_MIN, CHAR_MAX);
     printf("char 无符号值范围: 0 < value < %d \n", UCHAR_MAX);
 
-    printf("long 值范围: %E < value < %E \n", LONG_MIN, LONG_MAX);
+    printf("long 值范围: %d < value < %d \n", LONG_MIN, LONG_MAX);
     printf("long 无符号值范围: 0 < value < %d \n", ULONG_MAX);
 
     printf("\n================================\n");
